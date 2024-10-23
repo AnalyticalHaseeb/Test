@@ -91,8 +91,8 @@ SELECT [COGIPF_HOST_IPADDR]
 
 											 --and [COGIPF_LOCALTIMESTAMP] >= '01.09.2024' and [COGIPF_LOCALTIMESTAMP] < '20.09.2024'
 
-											 and [COGIPF_LOCALTIMESTAMP] >= '23.10.2024'
-											  
+											 and convert(datetime2,[COGIPF_LOCALTIMESTAMP]) >= '2024-10-23 10:00:00'
+										
 
 											 ) base
 
